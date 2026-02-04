@@ -1,11 +1,11 @@
 {
-  "name": "Example Plugin",
-  "author": "John Doe",
-  "flags": ["debug", "_root"],
+  "name": "EFI Boot Manager",
+  "author": "Fever",
+  "flags": ["root"],
   "api_version": 1,
   "publish": {
-    "tags": ["template", "root"],
-    "description": "Decky example plugin.",
+    "tags": ["boot", "efi", "uefi", "bootloader", "root"],
+    "description": "Manage EFI boot entries with drag-and-drop interface. Reorder boot entries, set next boot target.",
     "image": "https://opengraph.githubassets.com/1/SteamDeckHomebrew/PluginLoader"
   }
 }
