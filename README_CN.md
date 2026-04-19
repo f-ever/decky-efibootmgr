@@ -43,6 +43,7 @@
 ## 工作原理
 
 本插件是 `efibootmgr` 命令行工具的图形化封装。它：
+
 - 以 root 权限运行（通过 Decky 的 `_root` 标志）
 - 解析 `efibootmgr -v` 的输出来显示启动信息
 - 使用 `efibootmgr -o` 修改启动顺序
@@ -76,7 +77,7 @@ pnpm run build
 
 ### 项目结构
 
-```
+```text
 .
 ├── src/
 │   ├── index.tsx       # 主插件 UI

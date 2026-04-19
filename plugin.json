@@ -6,6 +6,6 @@
   "publish": {
     "tags": ["boot", "efi", "uefi", "bootloader", "root"],
     "description": "Manage EFI boot entries with drag-and-drop interface. Reorder boot entries, set next boot target.",
-    "image": "https://opengraph.githubassets.com/1/SteamDeckHomebrew/PluginLoader"
+    "image": "https://raw.githubusercontent.com/f-ever/decky-efibootmgr/main/assets/logo.png"
   }
 }

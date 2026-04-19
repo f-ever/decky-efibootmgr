@@ -43,6 +43,7 @@ A Decky plugin that provides a graphical interface for managing EFI boot entries
 ## How It Works
 
 This plugin is a GUI wrapper for the `efibootmgr` command-line tool. It:
+
 - Runs with root privileges (via Decky's `_root` flag)
 - Parses the output of `efibootmgr -v` to display boot information
 - Uses `efibootmgr -o` to modify boot order
@@ -76,7 +77,7 @@ pnpm run build
 
 ### Project Structure
 
-```
+```text
 .
 ├── src/
 │   ├── index.tsx       # Main plugin UI
